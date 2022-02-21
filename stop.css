@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: blueviolet;
+}
+.original{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #5c144a;
+}
+.fullhold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+   width: 500px;
+   position: relative;
+   color: white;
+   /* margin-bottom: 30px; */
+}
+.tme{
+    color: white;
+    font-size: 80px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    /* width: 300px; */
+    background-color:  #5c144a;
+    /* height: 300px; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 32px -12px rgb(222, 238, 5);
+
+}
+.forsec{
+    margin: auto;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 20px;
+}
+button{
+    background-color: #5c144a;
+    border: white solid 1px;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px;
+    color: white;
+    font-family: fantasy;
+    cursor: pointer;
+
+}
+button:hover{
+    color: rgb(222, 238, 5);
+    box-shadow:0px 0px 32px -12px rgb(222, 238, 5) ;
+}
+.jara{
+    margin-bottom: 30px;
+    font-family: fantasy;
+    font-size: 40px;
+}
